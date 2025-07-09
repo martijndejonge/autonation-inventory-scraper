@@ -21,7 +21,9 @@ It extracts full listings from each dealer’s `/all-inventory` page using dynam
 CSV file with headers:
 
 Dealer Name,Store ID,URL
+
 Audi Westmont,2831,https://www.audiwestmont.com/
+
 Laurel BMW of Westmont,2832,https://www.laurelbmw.com/
 ...
 
@@ -52,6 +54,8 @@ Headers (HEADERS_TEMPLATE)
 Pagination control (pageSize)
 
 Chunking logic (if len(all_vehicles) > 1000)
+
+
 
 ⚠️ Notes
 This project is for educational/research purposes.
