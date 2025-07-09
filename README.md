@@ -27,6 +27,7 @@ Audi Westmont,2831,https://www.audiwestmont.com/
 Laurel BMW of Westmont,2832,https://www.laurelbmw.com/
 ...
 
+---
 
 🚀 How to Run
 Install dependencies (Python 3.7+ recommended):
@@ -37,6 +38,7 @@ pip install requests
 
 Place your dealers.csv in the root folder.
 
+---
 Run the scraper:
 - autonation_all_scraper_sites.py (all cars, new and used)
 - autonation_new_scraper_sites.py (only new cars)
@@ -50,6 +52,7 @@ Example: output/audi_westmont_all_inventory.json
 If vehicle count >1000:
 output/laurel_bmw_of_westmont_all_inventory_part1.json, part2.json, etc.
 
+---
 
 🛠 Configuration
 Main configuration is inside autonation_all_scraper_sites.py, including:
@@ -62,6 +65,7 @@ Pagination control (pageSize)
 Chunking logic (if len(all_vehicles) > 1000)
 
 
+---
 
 ⚠️ Notes
 This project is for educational/research purposes.
