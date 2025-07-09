@@ -16,18 +16,6 @@ It extracts full listings from each dealer’s `/all-inventory` page using dynam
 
 ---
 
-## 📁 Project Structure
-
-autonation_scraper/
-│
-├── dealers.csv # Input: list of dealer names and URLs
-├── output/ # Output: JSON inventory files
-├── scraper.py # Main scraping script
-└── README.md # You're here
-
-
----
-
 ## 📄 dealers.csv Format
 
 CSV file with headers:
